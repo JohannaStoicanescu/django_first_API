@@ -16,5 +16,6 @@
       <li>ISBN: {{ book.isbn }}</li>
     </ul>
     {% endfor %}
+    <button onclick="location.href='{% url 'book_list' %}'">See API</button>
   </body>
 </html>
